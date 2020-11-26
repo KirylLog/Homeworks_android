@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imagePhoto"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/grey"
+        android:contentDescription="@string/image"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:text="@string/photo"
+        android:textColor="@color/black"
+        android:textSize="70sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@id/textTitle"
+        android:src="@drawable/ic_baseline_photo_camera_24"
+        android:contentDescription="@string/image"/>
+
+    <EditText
+        android:id="@+id/textTitle"
+        style="@style/InputFields"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/imagePhoto"
+        android:text="@string/title" />
+
+    <EditText
+        android:id="@+id/textPrice"
+        android:layout_marginTop="50dp"
+        style="@style/InputFields"
+        android:layout_below="@id/textTitle"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/price"/>
+
+    <EditText
+        android:id="@+id/textLocation"
+        style="@style/InputFields"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/textTitle"
+        android:layout_marginStart="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/location"/>
+
+    <EditText
+        android:id="@+id/textDescription"
+        style="@style/InputFields"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_below="@id/textPrice"
+        android:layout_marginTop="50dp"
+        android:hint="@string/description"/>
+
+    <EditText
+        android:id="@+id/textInventory"
+        android:layout_marginTop="50dp"
+        style="@style/InputFields"
+        android:layout_below="@id/textDescription"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/inventory"/>
+
+    <EditText
+        android:id="@+id/textFinish"
+        style="@style/InputFields"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/textDescription"
+        android:layout_marginStart="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/weight"/>
+</RelativeLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.Homework3"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/sign_in"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/sign"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold">
+    </TextView>
+
+    <EditText
+        android:id="@+id/enterData"
+        app:layout_constraintTop_toBottomOf="@id/sign_in"
+        android:background="@drawable/rounding_figure"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="50dp"
+        style="@style/TextEmail"
+        android:hint="@string/email" />
+
+    <EditText
+        android:id="@+id/enterData2"
+        app:layout_constraintTop_toBottomOf="@id/enterData"
+        android:background="@drawable/rounding_figure"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="50dp"
+        style="@style/TextEmail"
+        android:hint="@string/password" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        style="@style/Small_Functional_Labels"
+        app:layout_constraintTop_toBottomOf="@id/enterData2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="@string/remember" />
+
+    <TextView
+        android:id="@+id/Forgot"
+        app:layout_constraintTop_toBottomOf="@id/enterData2"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="50dp"
+        style="@style/Small_Functional_Labels"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="@string/forgot" />
+
+    <Button
+        android:id="@+id/buttonSign"
+        app:layout_constraintTop_toBottomOf="@id/Forgot"
+        android:background="@drawable/rounding_figure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/sign"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"/>
+
+    <TextView
+        style="@style/InputFields"
+        app:layout_constraintTop_toBottomOf="@id/buttonSign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="@string/just_sign_in"
+        android:gravity="center"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

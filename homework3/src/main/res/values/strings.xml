@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">POI</string>
+    <string name="button">BUTTON</string>
+    <string name="ignore">IGNORE</string>
+    <string name="attractions">Attractions</string>
+    <string name="dining">Dining</string>
+    <string name="education">Education</string>
+    <string name="family">Family</string>
+    <string name="fire">Fire</string>
+    <string name="office">Office</string>
+    <string name="promotion">Promotion</string>
+    <string name="radio">Radio</string>
+    <string name="recipes">Recipes</string>
+    <string name="sports">Sports</string>
+    <string name="photo">PHOTO</string>
+    <string name="title">Title</string>
+    <string name="price">Price</string>
+    <string name="location">Location</string>
+    <string name="description">Description</string>
+    <string name="inventory">Inventory</string>
+    <string name="weight">Weight</string>
+    <string name="image">This_Image</string>
+    <string name="sign">Sign in</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="remember">Remember</string>
+    <string name="forgot">Forgot password?</string>
+    <string name="just_sign_in">* Just sign in</string>
+    <string name="android">Android</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="posts">Posts</string>
+    <string name="numberOfPosts">125</string>
+    <string name="numberOfFollowers">20K</string>
+    <string name="numberOfFollowing">22</string>
+    <string name="username">Username</string>
+    <string name="address">Address</string>
+    <string name="directions">DIRECTIONS</string>
+    <string name="call">CALL</string>
+    <string name="website">WEBSITE</string>
+    <string name="save">SAVE</string>
+    <string name="androidCource">Android cource</string>
+    <string name="certificated">Certificated</string>
+    <string name="layouts">Layouts</string>
+    <string name="views">Views</string>
+
+</resources>

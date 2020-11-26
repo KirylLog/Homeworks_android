@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableRow>
+        <ImageView
+            android:id="@+id/imageAttractions"
+            style="@style/ImageViewStyle"
+            android:src="@drawable/ic_baseline_folder_24"
+            android:contentDescription="@string/image"/>
+
+        <Button
+            style="@style/ButtonStyle"
+            android:text="@string/attractions" />
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:id="@+id/imageDining"
+            style="@style/ImageViewStyle"
+            android:src="@drawable/ic_baseline_local_dining_24"
+            android:contentDescription="@string/image"/>
+        <Button
+            style="@style/ButtonStyle"
+            android:text="@string/dining" />
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:id="@+id/imageEducation"
+            style="@style/ImageViewStyle"
+            android:contentDescription="@string/image"
+            android:src="@drawable/ic_baseline_cast_for_education_24"/>
+        <Button
+            style="@style/ButtonStyle"
+            android:text="@string/education" />
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:contentDescription="@string/image"
+            android:id="@+id/imageFamily"
+            style="@style/ImageViewStyle"
+            android:src="@drawable/ic_baseline_family_restroom_24"/>
+        <Button
+            style="@style/ButtonStyle"
+            android:text="@string/family" />
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:contentDescription="@string/image"
+            android:id="@+id/imageFire"
+            style="@style/ImageViewStyle"
+            android:src="@drawable/ic_baseline_local_fire_department_24" />
+        <Button
+            style="@style/ButtonStyle"
+            android:text="@string/fire" />
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:contentDescription="@string/image"
+            android:id="@+id/imageOfficeOffice"
+            style="@style/ImageViewStyle"
+            android:src="@drawable/ic_baseline_local_post_office_24"/>
+        <Button
+            style="@style/ButtonStyle"
+            android:text="@string/office" />
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:contentDescription="@string/image"
+            android:id="@+id/imagePromotion"
+            style="@style/ImageViewStyle"
+            android:src="@drawable/ic_baseline_shopping_cart_24" />
+        <Button
+            style="@style/ButtonStyle"
+            android:text="@string/promotion" />
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:contentDescription="@string/image"
+            android:id="@+id/imageRadio"
+            style="@style/ImageViewStyle"
+            android:src="@drawable/ic_baseline_radio_24" />
+        <Button
+            style="@style/ButtonStyle"
+            android:text="@string/radio" />
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:contentDescription="@string/image"
+            android:id="@+id/imageRecipes"
+            style="@style/ImageViewStyle"
+            android:src="@drawable/ic_baseline_receipt_24" />
+        <Button
+            style="@style/ButtonStyle"
+            android:text="@string/recipes" />
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:contentDescription="@string/image"
+            android:id="@+id/imageSports"
+            style="@style/ImageViewStyle"
+            android:src="@drawable/ic_baseline_sports_24" />
+        <Button
+            style="@style/ButtonStyle"
+            android:text="@string/sports" />
+    </TableRow>
+    </TableLayout>
