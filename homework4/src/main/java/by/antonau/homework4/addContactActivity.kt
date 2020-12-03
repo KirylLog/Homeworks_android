@@ -13,8 +13,8 @@ class addContactActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_add_contact)
 
-        var mCheckPhoneNumber = (CheckBox) findViewById (R.id.checkPhoneNumber);
-        var mCheckEmail = (CheckBox) findViewById (R.id.checkEmail);
+   //     var mCheckPhoneNumber = (CheckBox) findViewById (R.id.checkPhoneNumber);
+    //    var mCheckEmail = (CheckBox) findViewById (R.id.checkEmail);
 
     }
 

@@ -18,8 +18,8 @@
             android:layout_height="match_parent"
             android:layout_weight="4"
             android:background="@color/purple_500"
-            android:src="@drawable/ic_baseline_arrow_back_24"
-            android:onClick="backToMainActivity"/>
+            android:onClick="backToMainActivity"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
 
         <TextView
             android:layout_width="0dp"
@@ -31,7 +31,6 @@
             android:textColor="@color/white"
             android:textSize="25sp"
             android:textStyle="bold" />
-
         <ImageButton
             android:id="@+id/buttonCheck"
             android:layout_width="0dp"
@@ -41,41 +40,50 @@
             android:src="@drawable/ic_baseline_check_24" />
     </LinearLayout>
 
-    <CheckBox
-        android:id="@+id/checkPhoneNumber"
-        android:layout_width="wrap_content"
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:checked="true"
-        android:text="@string/phoneNumber"
-        android:textSize="20sp"
-        android:layout_marginTop="25dp"
-        android:layout_marginStart="25dp"
-        android:button="@drawable/checkbox_selector"/>
-    <CheckBox
-        android:id="@+id/checkEmail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:checked="true"
-        android:text="@string/email"
-        android:textSize="20sp"
-        android:layout_marginStart="25dp"
-        android:button="@drawable/checkbox_selector"/>
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="1"
+            android:button="@drawable/checkbox_selector"
+            android:checked="true"
+            android:text="@string/phoneNumber"
+            android:textSize="20sp" />
+        <RadioButton
+            android:id="@+id/radioEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:button="@drawable/checkbox_selector"
+            android:checked="true"
+            android:text="@string/email"
+            android:textSize="20sp" />
+    </RadioGroup>
+
     <EditText
         android:id="@+id/enterName"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_marginTop="25dp"
         android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
         android:layout_marginEnd="25dp"
         android:hint="@string/name" />
     <EditText
         android:id="@+id/enterEmail"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_marginTop="25dp"
         android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
         android:layout_marginEnd="25dp"
-        android:hint="@string/email"/>
-
-
+        android:hint="@string/email" />
 </LinearLayout>
