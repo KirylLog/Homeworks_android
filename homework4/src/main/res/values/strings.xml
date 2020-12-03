@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ContactList</string>
+    <string name="enter">Search contact</string>
+    <string name="no_contacts">No contacts. Please add.</string>
+    <string name="add_contact">Add contacts</string>
+    <string name="edit_contact">Edit contact</string>
+    <string name="phoneNumber">Phone number</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="number">Number</string>
+    <string name="remove">Remove</string>
+</resources>
